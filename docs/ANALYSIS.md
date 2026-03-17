@@ -1,6 +1,8 @@
-# Projektanalyse: MatlabSimulink
+# Projektanalyse: Simulation-Homberg
 
 Erstellt am: 2026-03-14
+Zuletzt aktualisiert: 2026-03-17
+Repository: https://github.com/Energie-Wender/Simulation-Homberg
 
 ---
 
@@ -12,7 +14,7 @@ Dieses Repository enthält **MATLAB/Simulink-Modelle** (.slx-Dateien), die offen
 - **SpeedOptimisedVersionTannenweg.slx** (~8,2 MB) — Geschwindigkeitsoptimierte Variante des Tannenweg-Modells.
 - **workingGT3nomasknwithcontrol.slx** (~2,1 MB) — Simulationsmodell, vermutlich für ein GT3-Fahrzeug mit Regelungstechnik (ohne Maskierung).
 
-Das Repository wurde ursprünglich als **GitHub Skills Übungsrepository** („Introduction to GitHub") erstellt. Die eigentlichen Simulink-Modelle wurden nachträglich hinzugefügt. Die `.github/`-Ordnerstruktur (Workflows, Steps) stammt vollständig aus dieser Übung und hat keinen Bezug zu den Simulink-Modellen.
+Das Repository wurde ursprünglich als GitHub Skills Übungsrepository („Introduction to GitHub") unter `AsherFerdinand/MatlabSimulink` erstellt. Die Simulink-Modelle wurden nachträglich hinzugefügt. Im Rahmen der Grundanalyse wurde das Repository in die Organisation **Energie-Wender** überführt und in **Simulation-Homberg** umbenannt. Die `.github/`-Ordnerstruktur (Workflows, Steps) stammt noch aus der GitHub-Skills-Übung und hat keinen Bezug zu den Simulink-Modellen — sie sollte in einem der nächsten Schritte aufgeräumt werden.
 
 ### Abweichungen Dokumentation vs. Code
 
@@ -62,13 +64,17 @@ Ohne die Modelle in MATLAB zu öffnen, lassen sich die benötigten Toolboxen nic
 ```
 /
 ├── .github/
-│   ├── steps/          → GitHub-Skills-Übungsschritte (nicht projektrelevant)
-│   └── workflows/      → GitHub-Actions-Workflows (nicht projektrelevant)
+│   ├── steps/          → GitHub-Skills-Übungsschritte (nicht projektrelevant, aufräumen)
+│   └── workflows/      → GitHub-Actions-Workflows (nicht projektrelevant, aufräumen)
+├── docs/
+│   ├── ANALYSIS.md     → Diese Projektanalyse
+│   └── Test-Setup.md   → Test-Framework-Planung
 ├── TannenwegFinal.slx
 ├── SpeedOptimisedVersionTannenweg.slx
 ├── workingGT3nomasknwithcontrol.slx
-├── PROFILE.md          → GitHub-Profil-Datei (aus Übung)
-├── README.md           → GitHub-Skills-Beschreibung (nicht projektrelevant)
+├── devstate_active.md  → Projektstatus und nächste Schritte
+├── PROFILE.md          → GitHub-Profil-Datei (aus Übung, aufräumen)
+├── README.md           → Projektbeschreibung
 ├── LICENSE             → MIT-Lizenz
 └── .gitignore          → Standard-Gitignore
 ```
